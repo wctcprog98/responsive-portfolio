@@ -197,18 +197,28 @@ svg{
 .lastname{
     color:  #bd5d38;
     font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
 }
 .firstname{
     font-family: 'Saira Extra Condensed', sans-serif;
     word-spacing: 40px;
+   
 }
 
 h1{
     position: absolute;
     top: 100px; 
 }
+
 p{
     position: absolute;
     top:300px; 
+   
+    
 }
+h1.firstname{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    word-spacing: 40px;
+    font-weight: 700;
 
+}
