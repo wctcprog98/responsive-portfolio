@@ -245,3 +245,8 @@ form {
     clear: both;
     display: table;
   }
+
+  .row img{
+      width: 200px; 
+      height: 200px;
+  }
