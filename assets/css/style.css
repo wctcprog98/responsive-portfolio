@@ -9,21 +9,20 @@
     word-spacing: 40px;   
     }
 
-h1{
-    position: absolute;
-    top: 100px; 
-    }
-
-p{
-    position: absolute;
-    top:300px;   
-}
-
-form {
-     margin: 0 auto; 
-    }
-
 h3, p{
     text-align: center;
     }
+
+header{
+    border-bottom: 1px solid white;
+    background-color: black;
+}
+
+.foot{
+    display: inline-block;
+}
+
+body{
+    background-color: black;
+}
 
