@@ -250,3 +250,8 @@ form {
       width: 200px; 
       height: 200px;
   }
+
+.images{
+    position: fixed;
+    bottom: 0px;
+}
