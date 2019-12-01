@@ -16,6 +16,8 @@ h3, p{
 h3{
     color: #bd5d38;
 }
+
+/* Navigation */
 #masterHeader{
     border-bottom: 1px solid white;
     /* background-color: black; */
@@ -32,7 +34,36 @@ body{
 h2{
     color: white; 
 }
-
+/* Portfolio */
 .portfolioBody{
     background-color: white;
 }
+
+.head{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* knowledge */
+.card-img{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-mb-3{
+background-color: black;
+}
+
+.card-title{
+    color:  #bd5d38;
+}
+img{
+    height: 100px;
+    width: 150px;
+}
+
