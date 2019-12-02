@@ -70,18 +70,16 @@ nav{
     color: black; 
     float: right;
 
+
+}
+nav a{
+    text-decoration: none;
 }
 
 a:hover {
 color: #bd5d38; 
 text-decoration: none;
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
   a{
       margin-right: 20px;
