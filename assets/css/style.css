@@ -33,13 +33,16 @@ h2{
 /* typing effect */
 .css-typing p {
     border-right: .15em solid orange;
-    font-family: "Courier";
-    font-size: 14px;
+    font-family: "Oswald", "sans-serif";
     white-space: nowrap;
     overflow: hidden;
   }
   .css-typing p:nth-child(1) {
-    width: 7.3em;
+    font-size: 30px;
+    margin-left: 30px;
+    line-height: 60px;
+    width: 6.5em;
+    margin-bottom: 30px;
     -webkit-animation: type 2s steps(40, end);
     animation: type 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
@@ -47,7 +50,12 @@ h2{
   }
   
   .css-typing p:nth-child(2) {
-    width: 11.5em;
+    margin-bottom: 30px;
+    color: #ff8a00;
+    font-size: 60px;
+    line-height: 100px;
+    font-weight: 600;
+    width: 6.5em;
     opacity: 0;
     -webkit-animation: type2 2s steps(40, end);
     animation: type2 2s steps(40, end);
@@ -58,7 +66,9 @@ h2{
   }
   
   .css-typing p:nth-child(3) {
-    width: 40em;
+    font-size: 30px;
+    margin-left: 30px;
+    width: 12em;
     opacity: 0;
     -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
     animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
@@ -182,12 +192,6 @@ h2{
 }
 /* Portfolio */
 
-
-img{
-   margin-top: 15px;
-   margin-bottom: 15px;
-   width: 100%;
-}
 .portfolioBody{
     background-color: white;
 }
@@ -231,8 +235,8 @@ nav{
     margin-top: 35px;
     float: right;
 
-
 }
+
 nav a{
     text-decoration: none; 
 }
