@@ -270,4 +270,14 @@ font-family: Arial, Helvetica, sans-serif;
     bottom: 20px;
     right: 600px;
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+#images{
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: center;
+
+}
+
+
 
