@@ -10,7 +10,7 @@ body{
     height: 200px;
     left: 100px;
 }
-h1{
+.know{
   text-align: left;
   margin-left: 40px;
   margin-top: 40px;
@@ -212,24 +212,22 @@ h2{
 }
 
 /* knowledge */
-.card-img{
-    height: 50px;
-    width: 50px;
-    background-color: black;
+.knowCol{
+font-family: "Oswald", "sans-serif";
+text-align: center;
+font-size: 18px;
+color: orange;
+margin-top: 50px;
+}
+.content{
+  margin-top: 10px;
+  text-align: left;
+  line-height: 1.6em;
+  margin-left: 250px;
+  font-family: "Open Sans", sans-serif;
+  width: 325px;
 }
 
-.card-text{
-    color: white;
-}
-
-.card-mb-3{
-background-color: black;
-float: left;
-}
-
-.card-title{
-    color:  #bd5d38;
-}
 img{
     height: 65px;
     width: 200px;
@@ -298,3 +296,7 @@ font-family: Arial, Helvetica, sans-serif;
   background-color: black;
 }
 
+i{
+  float: left;
+  margin-left:250px;
+}
