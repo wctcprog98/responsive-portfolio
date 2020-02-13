@@ -290,7 +290,7 @@ font-family: Arial, Helvetica, sans-serif;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 
 #images{
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: 100px;
     text-align: center;
 
@@ -312,4 +312,14 @@ i{
 
 .progress{
   background-color: grey;
+}
+
+.progress-bar{
+  color: #ff8a00;
+}
+
+.skills{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
 }
