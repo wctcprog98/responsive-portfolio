@@ -1,22 +1,27 @@
+$( document ).ready(function() {
+    console.log( "ready!" );
 //typing effect
-const texts = ["code ninja", "dreamer", "innovator", "always looking to learn"];
-let count = 0; 
-let index = 0; 
-let currentText = '';
-let letter = '';
 
-(function type() {
-    if (count === texts.length) {
-        count = 0; 
-    }
-    currentText = texts[count];
-    letter = currentText.slice(0, ++index);
+<button onclick="move()">Click Me</button> 
 
-    document.querySelector(".change").textContent = letter;
-    //compares current letter value and if equal adds to the count which moves to the next index
-    if (letter.length === currentText.length) {
-        count++; 
-        index = 0;
+
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar");
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
     }
-    setTimeout(type, 400);
-}());
+  }
+}
+});
+
