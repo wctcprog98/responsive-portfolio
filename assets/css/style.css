@@ -12,7 +12,7 @@ body{
 }
 .know{
   text-align: left;
-  margin-left: 40px;
+  margin-left: 250px;
   margin-top: 40px;
   color: white;
   font-size: 50px;
@@ -258,11 +258,11 @@ color: #bd5d38;
 text-decoration: none;
 }
 
-a{
+nav a{
 margin-right: 20px;
 color: white;
-font-family: Arial, Helvetica, sans-serif;
- }
+font: 13px "Open Sans", sans-serif; 
+}
 
 .copy p {
     color: black;
@@ -280,10 +280,17 @@ font-family: Arial, Helvetica, sans-serif;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 
 #images{
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 200px;
     margin-left: 100px;
     text-align: center;
+}
 
+    #image{
+      margin-top: 50x;
+      margin-bottom: 100px;
+      margin-left: 100px;
+      text-align: center;
 }
 
 #changes{
@@ -291,7 +298,6 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .compCode{
-  background: url("assets/images/computer-code.jpg");
   background-color: black;
 }
 
@@ -304,16 +310,43 @@ i{
   background-color: grey;
 }
 
-.progress-bar{
-  color: #ff8a00;
-}
-
 .skills{
   font-size: 20px;
   text-align: center;
-  margin-bottom: 30px;
+}
+/* .col{
+  float: left;
+  text-align: center;
+  color: #ff8a00;
+  width: 30%;
+  border-bottom: 30px solid #ff8a00;
+} */
+.css{
+  margin-left: 250px;
+}
+.w3-light-grey w3-round{
+  float: left;
+  width: 200px;
 }
 
-p name{
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container{
+  background-image: url("assets/images/compBackground.jpg");
+}
+
+.aboutMe{
+float: right;
+font: 13px "Open Sans", sans-serif; 
+font-size: 20px;
+color: #ff8a00;
+}
+
+.name a{
+  font-size: 35px;
   color: #ff8a00;
+  text-decoration: none;
 }
