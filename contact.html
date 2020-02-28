@@ -24,44 +24,38 @@
                 <a href="portfolio.html">PORTFOLIO</a>
                 <a href="contact.html">CONTACT</a>
             </nav>
-    </header>
-    <div id="main-container">
-        <section class="main-section">
-            <h1>contact</h1>
-
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" placeholder="type your message here"
-                            required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit" name="submit">
-
-            </form>
-        </section>
-        <footer>
-            <div id="connect">
-                <h2>Connect with Me</h2>
-                <p class="foot">Github</p>
-                <p class="foot">Email</p>
-                <p class="foot">LinkedIn</p>
-                <p class="foot">Portfolio</p>
-            </div>
-        </footer>
-    </div>
-    <div class="copyright">
-            <p>Copyright &copy; 2019 Nenye Diei. All rights reserved</p>
-        </div>
+        </header>
+            <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Example select</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Example multiple select</label>
+                  <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Example textarea</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+             
 </body>
 
 </html>

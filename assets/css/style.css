@@ -350,3 +350,7 @@ color: #ff8a00;
   color: #ff8a00;
   text-decoration: none;
 }
+ .textControl{
+   text-align: center;
+   font-family: "Open Sans", sans-serif;
+ }
