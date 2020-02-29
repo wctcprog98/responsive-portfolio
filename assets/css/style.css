@@ -27,14 +27,11 @@ h3, p{
     /* position: absolute;
     z-index: 1; */
     color: white;
-    font-family: sans-serif;
+    font-family: "Oswald" ,"sans-serif";
     border-bottom: .5px solid white;
+    background-color: black;
 }
 
-.normalHeader{
-    color: white;
-    font-family: sans-serif;
-}
 
 h2{
   float: right; 
@@ -182,20 +179,12 @@ h2{
 #masterHeader{
     border-bottom: .5px solid white;
     width: 100%;
-    /* background-color: black; */
 }
 
 .foot{
     display: inline-block;
 }
 
-body{
-    background-color: black;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 h2{
     color: white; 
@@ -219,6 +208,7 @@ font-size: 18px;
 color: orange;
 margin-top: 50px;
 }
+
 .content{
  margin-top: 10px;
   text-align: left;
@@ -246,7 +236,6 @@ nav{
     margin-right: 10px;
     margin-top: 35px;
     float: right;
-
 }
 
 nav a{
@@ -298,7 +287,7 @@ font: 13px "Open Sans", sans-serif;
 }
 
 .compCode{
-  background-color: black;
+background-image: url("assets/images/computer-code");
 }
 
 i{
@@ -314,13 +303,6 @@ i{
   font-size: 20px;
   text-align: center;
 }
-/* .col{
-  float: left;
-  text-align: center;
-  color: #ff8a00;
-  width: 30%;
-  border-bottom: 30px solid #ff8a00;
-} */
 .css{
   margin-left: 250px;
 }
@@ -353,4 +335,47 @@ color: #ff8a00;
  .textControl{
    text-align: center;
    font-family: "Open Sans", sans-serif;
+   margin-right: 150px;
  }
+ .me{
+   float: left;
+   margin-right: 200px;
+   margin-top: 60px;
+   font-size: 60px;
+   line-height: 60px;
+   margin-bottom: 60px;
+   text-transform: uppercase;
+   font-family: "Oswald", "sans-serif"
+ }
+ .about{
+   background-color: white;
+ }
+ .picture{
+  float: left;
+  height: 400px;
+  width: 400px;
+  /* bottom: 280px; */
+ }
+.otherHeader{
+  font-family: "Oswald" ,"sans-serif";
+  background-color: rgba(0,0,0,0.85)
+}
+.twoTone{
+  color: #ff8a00;
+  text-transform: uppercase;  
+  font-family: "Oswald" ,"sans-serif";
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.aboutHeader{
+  float: right;
+  margin-top: 175px;
+  margin-right: -275px;
+  font-family: "Oswald" ,"sans-serif";
+  width: 800px;
+}
+
+.knowlege{
+  background-color: black;
+}
