@@ -393,3 +393,20 @@ color: #ff8a00;
 .carousel-caption{
   color: black;
 }
+
+.app{
+  color: #ff8a00;
+}
+
+.card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  height: 450px;
+  border: 6px solid  #ff8a00; 
+}
+
+.card body{
+  border-bottom: #ff8a00;
+}
