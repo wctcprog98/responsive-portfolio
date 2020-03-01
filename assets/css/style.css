@@ -395,6 +395,14 @@ line-height: 1.6;
   color: #ff8a00;
 }
 
+.know{
+  color: white;
+  font-family: "Oswald", "sans-serif";
+  font-size: 60px;
+  margin-top:30px;
+  margin-left: 135px;
+}
+
 .card{
   display: block;
   margin-left: auto;
@@ -455,6 +463,7 @@ a .btn:hover{
 }
 
 .centerCont{
+/* margin-top: 10px; */
 font-family: "Oswald", "sans-serif";
 font-size: 18px;;
 color: #ff8a00;
