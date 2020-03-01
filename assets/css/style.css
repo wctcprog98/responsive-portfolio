@@ -462,25 +462,6 @@ a .btn:hover{
   width: 800px;
 }
 
-.centerCont{
-/* margin-top: 10px; */
-font-family: "Oswald", "sans-serif";
-font-size: 18px;;
-color: #ff8a00;
-/* padding: 10px; */
-}
-
-.centerContent{
-font-family: "Oswald", "sans-serif";
-font-size: 18px;
-line-height: 1.6;
-margin-left: 150px;
-margin-right: 150px;
-display: block;
-text-align: left;
-
-}
-
 .footer {
   position: fixed;
   left: 0;
@@ -502,15 +483,14 @@ text-align: left;
   width: 33.33%;
   padding: 10px;
 }
+/* clear column float */
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
- 
 }
-
 .align{
   text-align: left;
   color: white;
@@ -525,11 +505,12 @@ td{
   margin-right: 60px;
 }
 table{
-  margin-right: 20px;
+  position: relative;
+  right: 155px;
 }
 #first{
   position: relative;
-  left:-100px;
+  left:-120px;
 }
 
 .front{
@@ -553,3 +534,38 @@ table{
   position: relative;
   right: 275px;
 }
+.workSkills{
+  margin-top: 100px;
+  font-family: "Oswald", "sans-serif";
+  color: white;
+  text-align: right;
+}
+
+
+.centerCont{
+  /* margin-top: 10px; */
+  font-family: "Oswald", "sans-serif";
+  font-size: 18px;;
+  color: #ff8a00;
+  /* padding: 10px; */
+  }
+  .skillsKnow{
+    text-transform: uppercase;
+    font-family: "Oswald", "sans-serif";
+    text-align: center;
+    /* position: absolute;
+    left: 740px; */
+    color: grey;
+    font-size: 25px;
+  }
+  .centerContent{
+  font-family: "Oswald", "sans-serif";
+  font-size: 18px;
+  line-height: 1.6;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  display: block;
+  text-align: left;
+  
+  }
