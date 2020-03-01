@@ -11,8 +11,8 @@ body{
     left: 100px;
 }
 .know{
-  text-align: left;
-  margin-left: 250px;
+
+  margin-left: 50px;
   margin-top: 40px;
   color: white;
   font-size: 50px;
@@ -477,11 +477,8 @@ a .btn:hover{
 .centerCont{
 font-family: "Oswald", "sans-serif";
 font-size: 18px;;
-margin-top: 50px;
 color: #ff8a00;
 display: block;
-margin-left: auto;
-margin-right: 20px;
 /* margin-left: 20px;
 margin-right: 20px; */
 }
@@ -490,10 +487,45 @@ margin-right: 20px; */
 font-family: "Oswald", "sans-serif";
 font-size: 18px;
 line-height: 1.6;
-margin-left: auto;
-margin-right: auto;
+margin-left: 150px;
+margin-right: 150px;
+display: block;
+text-align: left;
+
 }
 
-.fas{
-  margin-right: 10px;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  height: 70px;
+  margin-bottom: 35px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+.align{
+  text-align: left;
+}
+
+
